@@ -55,7 +55,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Adresse</h4>
                   <p className="text-muted-foreground">
-                    Äußere Sulzbacher Straße 128, 90491 Nürnberg
+                    Färberstraße 54, 90402 Nürnberg
                   </p>
                 </div>
               </div>
@@ -68,10 +68,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefon</h4>
                   <a
-                    href="tel:+4917629117689"
+                    href="tel:015118311067"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    0176 29117689
+                    015118311067
                   </a>
                 </div>
               </div>
@@ -84,9 +84,9 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo. – Fr. 09:00–19:00 Uhr
+                    Mo. – Fr. 10:00–20:00 Uhr
                     <br />
-                    Sa. 09:00–19:00 Uhr
+                    Sa. 10:00–19:00 Uhr
                   </p>
                 </div>
               </div>
@@ -109,14 +109,14 @@ export const ContactSection = () => {
             <div className="relative">
               <div className="aspect-square lg:aspect-[4/5] rounded-sm overflow-hidden border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.0466369434594!2d11.117062376893147!3d49.464733457845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57dec87eba7f%3A0xac674ba124944238!2sLord%20Barbershop%20Coiffeur!5e0!3m2!1sde!2sde!4v1769173411707!5m2!1sde!2sde"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5187.871688976504!2d11.069183276892435!3d49.44792955903806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a835434d4d%3A0xfba938ebd99d6f67!2sTop%20Salon%20-%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769505288553!5m2!1sde!2sde"
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Standort Lord Barbershop Coiffeur"
+                  title="Standort Top Salon – Nürnberg"
                 />
               </div>
 
@@ -137,6 +137,7 @@ export const ContactSection = () => {
     </section>
   );
 };
+
 
 
 
